@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1279</width>
+    <height>717</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>Microsoft YaHei</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>演示</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/cover/Pages/assets/cover.png)</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1279</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="train">
+    <property name="title">
+     <string>模型训练演示</string>
+    </property>
+    <addaction name="ActionNewTrain"/>
+    <addaction name="ActionStartTrain"/>
+   </widget>
+   <widget class="QMenu" name="inference">
+    <property name="title">
+     <string>模型部署演示</string>
+    </property>
+    <addaction name="ActionStartInference"/>
+   </widget>
+   <widget class="QMenu" name="seetings">
+    <property name="title">
+     <string>设置</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="dataset">
+    <property name="title">
+     <string>数据集</string>
+    </property>
+    <addaction name="ActionNewDataset"/>
+    <addaction name="ActionLoadDataset"/>
+   </widget>
+   <addaction name="dataset"/>
+   <addaction name="train"/>
+   <addaction name="inference"/>
+   <addaction name="seetings"/>
+  </widget>
+  <action name="ActionNewTrain">
+   <property name="text">
+    <string>新建训练</string>
+   </property>
+  </action>
+  <action name="ActionNewDataset">
+   <property name="text">
+    <string>新建数据集</string>
+   </property>
+  </action>
+  <action name="ActionSelectDataset">
+   <property name="text">
+    <string>选择数据集</string>
+   </property>
+  </action>
+  <action name="ActionStartTrain">
+   <property name="text">
+    <string>开始训练</string>
+   </property>
+  </action>
+  <action name="ActionStartInference">
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </action>
+  <action name="actions_2">
+   <property name="text">
+    <string>视频识别</string>
+   </property>
+  </action>
+  <action name="ActionLoadDataset">
+   <property name="text">
+    <string>导入数据集</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../assets.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>new_train()</slot>
+ </slots>
+</ui>
