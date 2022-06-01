@@ -13,7 +13,9 @@
 - FaceDetection.py 人脸检测代码
 - Predict.py 模型预测代码
 - VisualTrain.py 模型训练代码  
-- CSV文件 用来保存数据集和创建的信息
+- CSV文件 用来保存数据集和创建的信息  
+#### 4. Dataset
+存放数据集的目录
 ### 注意事项  
 * #### 配置好环境，安装使用PySide的工具，不会安装见如下以PyCharm为例的说明  
 1. 依次点击 File:arrow_right:Settings:arrow_right:Tools:arrow_right:External Tools:arrow_right::heavy_plus_sign:添加PySide工具,工具所在的目录为 _你的Python环境_ \Scripts  
