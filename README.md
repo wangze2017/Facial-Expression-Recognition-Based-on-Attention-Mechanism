@@ -1,17 +1,13 @@
 # Facial-Expression-Recognition-Based-on-Attention-Mechanism
 基于注意力机制的表情识别
 ### 文件目录解释
-#### 1. Dataset  
-用来存放数据集
-#### 2. Models  
+#### 1. Models  
 用来存放的模型，可以是已有的Paddle格式的模型
-#### 3. Pages  
+#### 2. Pages  
 - assets 用到的图片资源
 - assets.qrc 使用PySide生成的样式文件
 - assets_rc.py GUI界面的样式文件，此目录和根目录都有，我忘记是调用的哪一个了，所以都保留了。
-#### 4. Train  
-训练时的工作路径，自行训练的模型会保存在这里
-#### 5. Utils
+#### 3. Utils
 - AttResNet.py 网络代码
 - DatasetProcess.py 数据集处理代码
 - FaceDetection.py 人脸检测代码
