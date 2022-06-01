@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="cover">
+    <file>Pages/assets/cover.png</file>
+  </qresource>
+  <qresource prefix="emoji">
+    <file>Pages/assets/emoji/1.png</file>
+    <file>Pages/assets/emoji/2.png</file>
+    <file>Pages/assets/emoji/3.png</file>
+    <file>Pages/assets/emoji/anger.png</file>
+    <file>Pages/assets/emoji/contempt.png</file>
+    <file>Pages/assets/emoji/disgust.png</file>
+    <file>Pages/assets/emoji/fear.png</file>
+    <file>Pages/assets/emoji/happy.png</file>
+    <file>Pages/assets/emoji/sadness.png</file>
+    <file>Pages/assets/emoji/surprise.png</file>
+  </qresource>
+</RCC>

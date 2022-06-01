@@ -1,0 +1,8 @@
+mediapipe==0.8.10
+numpy==1.21.6
+opencv_python==4.5.5.64
+paddle==1.0.2
+paddlepaddle_gpu==2.3.0.post112
+ppqi==1.0.4
+PySide6==6.3.0
+visualdl==2.2.3
